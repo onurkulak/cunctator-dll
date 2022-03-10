@@ -1,0 +1,115 @@
+old world ile ilgili dusunceler:
+
+savas nasil daha iyi olabilir:
+ffh gibi askerler daha ucuz olup daha yavas hareket edebilirler bence, fatigue limiti 2 olabilir mesela.
+piyade birlikleri 8-10 birim dolanip seni kusatabiliyor su an, cok mantikli gelmiyor. agir hareket ve positioningin daha onemli olmasi guzel olurdu. battle for wesnoth bu konuda iyi bayagi, cok basit mekanikle cephe hissi veriyordu.
+ffhde tecrubelerin de etkisi 2xti mesela, daha az ama tecrubeli bir taktik takimin oluyordu. bag kuruyordun birliklerle. xcom vari elit birliklerin oluyordu
+
+belki de ben cok askeri devletler oynamadigimdan boyle hissettiriyordur. kartacada asker basan aile pek yok, ve barracklari basta pek yapmadim. ai mesela hep asker basiyor bi ton citizen bos duruyor
+
+
+bi civin default halinde 4-6 sehri olmasini bekleriz ama genisleme cok kolay oyunda. onerilen civ sayisiyla oynayinca hicbir sey yapmadan 7-8 mega sehrin oluyor. 
+her sehir civ4tekinin 1.5 kati bir de o yuzden cok hissettiriyor insana. belki yuksek zorluklarda tribelar daha guclu oluyordur.
+
+askerlerin fiyati ucuz baslayip rise of nationstaki gibi ramping uygulanabilir.
+her aileye bi ramping mekanigi konabilir
+
+********
+
+oyun kasiyor
+
+tutoriallar zayif bayagi, aile mekanikleri havada kaliyor.
+
+benim oyunda niyeyse hep tas sikintim oldu normal mi bilmiyorum garip geldi.
+
+
+*******
+
+mod fikri: asabiya diye bi tribelari degistiren mod konulabilir
+furious tribelar savas kazanirlarsa devlet kurabilirler:
+	bi tribe state sehir ele gecirme odakli total savas ilan eder
+	sehir ele gecirmedikelri surece tam bir devletlesme yok.
+
+daha cok uzaktan isgal olabilir, m2tw deki mogollar gibi mesela. rtw hunlar vs.
+
+yeterince guclu bir tribe haritanin bir yonunden gelebilir:
+oyun cok bariscil gidiyorsa oyuna renk verebilir boyle bir isgal.
+eger bir tribe digerine ustun gelirse onu yerinden surer ve onun yerine yerlesir. diger tribe rtw barbarian invasion gibi askerlere donusup obur tarafa dogru goc ederler. baska tribelara veya ulkelere saldirirlar.
+
+eger bi devletin sehrini ele gecirirlerse yeni devlet kurulabilir. bunun icin oyuna yeni devletler eklenebilir.
+
+
+tribelar duruma gore ozel ticaret mallari satabilsinler (mesela oyundao lmayan ipek falan), ambassador bu adamlarla da ticaret yapabilsin. 
+tribelar ile her ticaret ve savas onlari konsolide etsin, bunlar arttikca devlet kurma ihtimalleri artsin. yani tribelar bu yolla legitimacy elde etsin
+
+
+mesela gercek civlerin ozelligi legitimacynin devretmesi. bleki tribelarda legitimacy sadece lidere ait olabilir. lider olunce tribe ailelere dagilir ve ic savas olur. taa ki bi lider tekrar gerekli legitimacy yapincaya kadaro durumda tekrar konsolide olunur???
+
+
+akla gelen devletler tribelar:
+tocharianlar
+gotlar
+franklar
+vandallar
+hunlar
+avarlar?
+
+
+
+****
+
+city statelerin calinmasini engelleme modu. can ful olana kadar bi variable olacak orada. bunun icin city site classi gibi bir sey bulacagim.
+
+
+*******
+savas mekaniklerini iyilestiren bir sey ilk hedefim,
+eklemek istedigim iki mekanik var
+rout, oyundaki panic ve stun kullanilarak yapilabilir.
+attrition warfare de oyunda olsun istiyorum, su an 3-4 ust seviye asker hemen alabiliyorlar bir yeri. uzun suren bi kusatma cok gormedim.
+birlikler cok uzaktan belirmesin.
+
+
+ama sirf mekanik icin mekanik eklememek lazim. once vermek istedigim hisse odaklanacagim, sonra ona gore mekanik ypaacagim.
+vermek istedigim his long war un xcoma verdigi his gibi belki de. ya da ffhnin civ4e. genel bir eppiklik olsun istiyorum.
+
+
+
+
+savas modu ilk yapilacaklar:
+
+yapilanlar:
+okcular ve slingerlarin menzili dusuruldu: slinger dagdan bonus almiyor, okcu dagdan menzil bonusu aliyor.
+butun effectlerin etkisi 2x oldu: saddleborn ve tracker yamalrla degismisti duzeltildi. hicbi sey degismedigim bazi efektleri cikarttim oyundan direkt.
+crit chance %100den fazlaysa 3lu vurma ihtimali eklendi
+tribal birliklerin gucleri arttirildi
+ailenin sahip oldugu her askeri birlik icin %5 ramp up cost var, 
+ama 1: xmlden fiyatlari dusurmek lazim
+2: mesela conscriptler buna eklenmeli mi ya da garnizonlar? ya da baska bi scale etme faktoru daha olmali mi?
+iproductionper diye bi sey varmis zaten... bi seyi her yaptiginda fiyati artiyor ama yine de bunun aile duzeyinde olmasini istiyorum ben. sonra bkailabilir.
+
+
+sonra bu withdraw etme mekanigini yapayim, bu worker updatelerinin oldugu sekilde yapilabilir, shiftle emir verilen askerler gibi.
+bunun icin once bi asker state i eklemek lazim, o an kaciyor mu falan diye. kacan unit o tur flank pozisyonu ortadan kalkincaya kadar uzaklassin panic ile rahat yapilabilir. ama o tur panic olmus bi askere yapilan saldirilar daha az etki etsin, ve her saldirida kacsin. kacamayan birlikler belki geri saldirabilmeli?
+yani m2twdeki kirmizi bayrak olayi gibi. hem stun yiyip hem tek seferlik bi karsi saldiri yapabilirler. 
+horse archerlarda da bu mekanik hep olsun mesela, her saldirida geri cekilsinler daha az hasar alsinlar. simdiki mekanikleri bayagi sikko.
+
+
+olen bi birlik tipi baskentte respawn olabilsin mi, yani bu ozel ve pahali bi promotionla olabilir. ffh'deki cok exp alan birlikleri boyle ozel immortal falan yapabiliyordun. 
+ya da zaten en ust seviye birlikler exp almaya devam etsin ama sadece defans versin bu? %5 defans gibi ufak bir sey olabilir
+
+yeni atli birlikler eklenebilir, su an cok az ve kotu calisan mekanik var, uzengisiz at binen uluslar yok, ve uzengi gucsuz bi teknoloji. 8 gucunde erken acilan suvari lazim bence.
+
+attrition ve supply line ne son eklenecek seyler olabilir, cok sey istiyorlar.
+...........
+
+
+
+old world'e givdigim feedbackle degisen seyler:
+
+
+Roman Unique Unit's ability to ignore Zone of Control has been removed
+Dealmaker and Cunning Traits are now combined
+Declining truce with tribes give you ruthless trait
+Student tooltip now shows possible archetypes in the future
+assassination mission looks for <= angry relation
+
