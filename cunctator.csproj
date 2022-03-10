@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.dll">
+      <HintPath>dll/UnityEngine.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule.dll">
+      <HintPath>dll/UnityEngine.CoreModule.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
+    <Reference Include="UnityEngine.UI.dll">
+      <HintPath>dll/UnityEngine.UI.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
+    <Reference Include="TenCrowns.GameCore.dll">
+      <HintPath>dll/TenCrowns.GameCore.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
+    <Reference Include="System.dll">
+      <HintPath>dll/System.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
+    <Reference Include="Mohawk.SystemCore.dll">
+      <HintPath>dll/Mohawk.SystemCore.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
+    <Reference Include="dll/.*.dll"/>
+  </ItemGroup>
+</Project>
